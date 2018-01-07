@@ -9,6 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import java.util.List;
 
 /**
@@ -30,7 +31,8 @@ public class PlacesAdapter extends ArrayAdapter<Place> {
 	 * 	 : The position of the item in the List
 	 * @param convertView
 	 * 	 : the recycled item view of the ListView
-	 * @param parent required
+	 * @param parent
+	 * 	 required
 	 *
 	 * @return fragment's view
 	 */
@@ -48,16 +50,20 @@ public class PlacesAdapter extends ArrayAdapter<Place> {
 		
 		final Place place = getItem(position);
 		
-		TextView titleTextView = (TextView) listItemView.findViewById(R.id.title_text_view);
+		if (place == null) {
+			return listItemView;
+		}
+		
+		TextView titleTextView = listItemView.findViewById(R.id.title_text_view);
 		titleTextView.setText(place.getPlaceTitle());
 		
-		TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text_view);
+		TextView descriptionTextView = listItemView.findViewById(R.id.description_text_view);
 		descriptionTextView.setText(place.getPlaceDescription());
 		
-		TextView addressTextView = (TextView) listItemView.findViewById(R.id.address_text_view);
+		TextView addressTextView = listItemView.findViewById(R.id.address_text_view);
 		addressTextView.setText(place.getPlaceAddress());
 		
-		ImageView imageView = (ImageView) listItemView.findViewById(R.id.image_view);
+		ImageView imageView = listItemView.findViewById(R.id.image_view);
 		
 		if (place.hasImage()) {
 			imageView.setImageResource(place.getImageResourceId());

@@ -34,7 +34,7 @@ public class HotelsFragment extends Fragment {
 		
 		PlacesAdapter itemsAdapter = new PlacesAdapter(getActivity(), places, R.color.hotelsCategory);
 		
-		ListView listView = (ListView) rootView.findViewById(R.id.list);
+		ListView listView = rootView.findViewById(R.id.list);
 		listView.setAdapter(itemsAdapter);
 		listView.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
 		

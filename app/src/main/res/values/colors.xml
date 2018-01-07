@@ -22,4 +22,7 @@
 	
 	<!-- Background color for the phrases category -->
 	<color name="sightseeingCategory">#16AFCA</color>
+	
+	<color name="textColorWhite">#ffffff</color>
+	
 </resources>

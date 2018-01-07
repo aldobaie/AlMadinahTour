@@ -1,6 +1,7 @@
 <resources>
 	<string name="app_name">Al-Madinah Tour</string>
 	<string name="masjid">Masjid</string>
+	<string name="masjids">Masjids</string>
 	<string name="hotels">Hotels</string>
 	<string name="restaurants">Restaurants</string>
 	<string name="sightseeing">Sightseeing</string>

@@ -1,6 +1,5 @@
 package com.akaldobaie.udacity.abnd.al_madinahtour;
 
-import android.content.Context;
 import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -22,19 +21,19 @@ public class MainActivity extends AppCompatActivity {
 	 * may be best to switch to a
 	 * {@link android.support.v4.app.FragmentStatePagerAdapter}.
 	 */
-	private SectionsPagerAdapter mSectionsPagerAdapter;
+	SectionsPagerAdapter mSectionsPagerAdapter;
 	
 	/**
 	 * The {@link ViewPager} that will host the section contents.
 	 */
-	private ViewPager mViewPager;
+	ViewPager mViewPager;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+		Toolbar toolbar = findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
 		
 		// Create the adapter that will return a fragment for each of the three
@@ -42,10 +41,10 @@ public class MainActivity extends AppCompatActivity {
 		mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 		
 		// Set up the ViewPager with the sections adapter.
-		mViewPager = (ViewPager) findViewById(R.id.container);
+		mViewPager = findViewById(R.id.container);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
 		
-		TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
+		TabLayout tabLayout = findViewById(R.id.tabs);
 		tabLayout.setupWithViewPager(mViewPager);
 		
 		mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
@@ -81,7 +80,6 @@ public class MainActivity extends AppCompatActivity {
 	public class SectionsPagerAdapter extends FragmentPagerAdapter {
 		
 		final int PAGE_COUNT = 4;
-		private String tabTitles[] = new String[]{"Masjids", "Hotels", "Restaurants", "Sightseeing"};
 		private Fragment tabFragments[] = new Fragment[]{
 			 new MasjidsFragment(),
 			 new HotelsFragment(),
@@ -111,7 +109,15 @@ public class MainActivity extends AppCompatActivity {
 		@Override
 		public CharSequence getPageTitle(int position) {
 			// Generate title based on item position
-			return tabTitles[position];
+			
+			switch (position)
+			{
+				case 0: return getString(R.string.masjids);
+				case 1: return getString(R.string.hotels);
+				case 2: return getString(R.string.restaurants);
+				case 3: return getString(R.string.sightseeing);
+				default: return "";
+			}
 		}
 	}
 }
