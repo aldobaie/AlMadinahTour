@@ -1,0 +1,142 @@
+<resources>
+	<string name="app_name">Al-Madinah Tour</string>
+	<string name="masjid">Masjid</string>
+	<string name="hotels">Hotels</string>
+	<string name="restaurants">Restaurants</string>
+	<string name="sightseeing">Sightseeing</string>
+	<string name="section_format">Hello World from section: %1$d</string>
+	
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+	<string name="action_settings">Settings</string>
+	
+	<!--Masjids-->
+	<string name="masjid_1_title">Al-Masjid An-Nabawi</string>
+	<string name="masjid_1_description">Al-Masjid an-Nabawī is a mosque established and originally built by the Islamic prophet Muhammad, situated in the city of Medina in Saudi Arabia.</string>
+	<string name="masjid_1_address">Al Haram, Medina 42311</string>
+	
+	<string name="masjid_2_title">Masjid Quba</string>
+	<string name="masjid_2_description">The Quba Mosque, in the outlying environs of Medina in Saudi Arabia, is the oldest mosque in the world that dates to the lifetime of the Islamic prophet Muhammad</string>
+	<string name="masjid_2_address">Al Hijrah Rd, Al Khatim, Medina 42318</string>
+	
+	<string name="masjid_3_title">Masjid Al-Qiblatayn</string>
+	<string name="masjid_3_description">Masjid al-Qiblatain in Saudi Arabia is the fifth-oldest mosque in the world (first built in 623)</string>
+	<string name="masjid_3_address">Khalid Ibn Al Walid Rd, Al Qiblatayn, Medina 42351</string>
+	
+	<string name="masjid_4_title">Sab\'u Masajid</string>
+	<string name="masjid_4_description">The Seven Mosques or Sab\'u Masajid is a complex of six small historic and often visited mosques in the city of Medina</string>
+	<string name="masjid_4_address">Al Fath, Medina 42312 42351</string>
+	
+	<string name="masjid_5_title">Masjid Al-Ghamama</string>
+	<string name="masjid_5_description">Mosquie of Al-Ghamamah is one of the oldest mosques in Medina, Saudi Arabia, located in the place believed to be where the Islamic prophet Muhammad performed an Eid prayer in the year 631.</string>
+	<string name="masjid_5_address">Al Haram, Medina 42311</string>
+	
+	<string name="masjid_6_title">Masjid Al-Saqiya</string>
+	<string name="masjid_6_description">Mosque of Al-Saqiya is a mosque located in Medina, Saudi Arabia inside the current Anbariya train station</string>
+	<string name="masjid_6_address"> As Suqya, Medina 42315</string>
+	
+	<string name="masjid_7_title">Masjid Al-Anbariya</string>
+	<string name="masjid_7_description">The Anbariya Mosque, also known as the Hamidiye Mosque, is a mosque built by the Ottoman Turks in Medina, which is nowadays part of Saudi Arabia. It is named after the Anbariya Gate, next to which the mosque was located.</string>
+	<string name="masjid_7_address">8762 Omar Ibn Alkhtab Rd, Al Mughaisilah, Medina 42315 3959</string>
+	
+	<!--Hotels-->
+	<string name="hotel_1_title">Dar Al Eiman Al Manar</string>
+	<string name="hotel_1_description">A 12-minute walk from Al-Masjid an-Nabawi mosque, this sprawling, upscale hotel is also a 7 km from Quba Mosque</string>
+	<string name="hotel_1_address">7028 Badaah, 2467, Medina 42311</string>
+	
+	<string name="hotel_2_title">Zowar International</string>
+	<string name="hotel_2_description">This Zowar is located less than 200 yards from the Al-Masjid al-Nabawī in the
+central Northern area of Medina.</string>
+	<string name="hotel_2_address">Badaah, Medina 42311</string>
+	
+	<string name="hotel_3_title">Al Rashid Residences</string>
+	<string name="hotel_3_description">Featuring a fitness centre and a spa and wellness centre, Al Rashid Residences is
+set in Al Madinah, not far from Al Rashid Mega Mall.</string>
+	<string name="hotel_3_address">King Abdullah Rd, Shadhah, Madina</string>
+	
+	<string name="hotel_4_title">Meshal Hotel Al Madina</string>
+	<string name="hotel_4_description">A 13-minute walk from the Al–Masjid an-Nabawi pilgrimage site, this polished hotel in a downtown building with Islamic-style arches is 21 km from Prince Mohammad Bin Abdulaziz International</string>
+	<string name="hotel_4_address">gate No. 7, Western Area, Al Haram، An Naqa, Medina 42311</string>
+	
+	<string name="hotel_5_title">Saraya Taba Hotel</string>
+	<string name="hotel_5_description">Saraya Taba Hotel is located within a 2-minute walking distance from Al-Masjid
+Al-Nabawi in Madinah.</string>
+	<string name="hotel_5_address">Bani Khidrah, Central Zone Sothra, Medina</string>
+	
+	<string name="hotel_6_title">Dar Al Shohadaa Hotel</string>
+	<string name="hotel_6_description">Located in Al Medina Al Munawara at Sayed Al Shuhadaa Street, Dar Al
+Shohadaa Hotel features simply furnished rooms and is 13-minute walk from Al-
+Masjid</string>
+	<string name="hotel_6_address">Sayyid Ash Shuhada, Al Masani, Medina 42313</string>
+	
+	<string name="hotel_7_title">Al Saha Hotel</string>
+	<string name="hotel_7_description">Al Saha Hotel is centrally located in Medina, less than 100 yards from Al-Masjid
+Al-Nabawi. There are several shops and restaurants around the hotel.</string>
+	<string name="hotel_7_address">Badaah, Medina 42311</string>
+	
+	<!--Restaurants-->
+	<string name="restaurant_1_title">Arabesque Restaurant</string>
+	<string name="restaurant_1_description">Beautiful restaurant it\'s in shaza Al madina very nice food and everybody really helpful really good staff especially mr mugahed help us everyday we stay 15 days and enjoy the break fast everyday x</string>
+	<string name="restaurant_1_address">Badaah, Medina 42311</string>
+	
+	<string name="restaurant_2_title">Beiruti</string>
+	<string name="restaurant_2_description">Great chicken shawerma .. I believe it\'s the best in Madinah for years.</string>
+	<string name="restaurant_2_address">Bir Uthman, Medina 42331</string>
+	
+	<string name="restaurant_3_title">Al-Madinah Marhaba Restaurant</string>
+	<string name="restaurant_3_description">Good foods with really affordable price! Recommended. Totally.</string>
+	<string name="restaurant_3_address">Al Masani, Medina 42313</string>
+	
+	<string name="restaurant_4_title">Kareem Restaurant</string>
+	<string name="restaurant_4_description">The Hotel Madina Kareem serves a breakfast buffet each morning. The on-site
+restaurant features a rich variety of buffet-style meals served in a stylish
+atmosphere. The property is only a short walk to a number of shops and
+restaurants and Prince Mohammed Airport is 9 miles away.</string>
+	<string name="restaurant_4_address">Al Masani, Medina 42313</string>
+	
+	<string name="restaurant_5_title">Chain restaurants and juices Shater</string>
+	<string name="restaurant_5_description">Hot dishes Restaurants in Medina open now. 7339 Prince Muqrin Ibn Abdulaziz,
+Al Mabuth, Medina 42362, Saudi Arabia, phone:+966 9200 17900, opening
+hours, photo.</string>
+	<string name="restaurant_5_address">7115 Prince Muqrin Ibn Abdulaziz, Al Mabuth, Medina 42362</string>
+	
+	<string name="restaurant_6_title">Nerala Taibah Restaurant</string>
+	<string name="restaurant_6_description">100% fresh mutton chicken desi chicken and beef</string>
+	<string name="restaurant_6_address">Sayyid Ash Shuhada Sayyid Ash Shuhada, Al Masani, 7362-, Medina 42313 2574</string>
+	
+	<string name="restaurant_7_title">Hunain Al Bukhari Restaurant</string>
+	<string name="restaurant_7_description">Best Grilled chicken and Bukari Rices </string>
+	<string name="restaurant_7_address">Airport Rd, Al Aridh, Medina 42314</string>
+	
+	<!--Sightseeing-->
+	<string name="sightseeing_1_title">Al-Madina Museum</string>
+	<string name="sightseeing_1_description">The museum containing some unique photos and coins and other antiques. On back of the museum there is a beautiful garden with snacks booths.</string>
+	<string name="sightseeing_1_address">Omar Bin Alkatab Street, Medina, Saudi Arabia</string>
+	
+	<string name="sightseeing_2_title">Madain Saleh Tombs</string>
+	<string name="sightseeing_2_description">Landscape - amazing. The sand rocks that were formed a long-long time ago, the desert sand, the black earth covering some of the mountains .....and all the history behind this vast area is fantastic and amazing.</string>
+	<string name="sightseeing_2_address">Al Ula, Medina, Saudi Arabia</string>
+	
+	<string name="sightseeing_3_title">Dar Al Madinah Museum</string>
+	<string name="sightseeing_3_description">In Dar AlMadinah Museum: We focus on historical pages of Madinah starting from the pure history of the prophet Muhammed (PBUH) , continuing to the Islamic civilization and heritage till now. The serial generations efforts of its people provided to us a historical, civilized, constructional touches carrying deep inside a philosophy which emerges beauty and life by Islamic vision.</string>
+	<string name="sightseeing_3_address">Safwan Bin Malik ST | 5257 - al Mabuth al Madinah al Munawwarah, Medina 42362, Saudi Arabia</string>
+	
+	<string name="sightseeing_4_title">King Fahd Glorious Quran Printing Complex</string>
+	<string name="sightseeing_4_description">Excellent Place to visit. Really amazing. You will truly appreciate the hard work and perfection that goes into printing our holy Quraan.</string>
+	<string name="sightseeing_4_address">Tabuk Trunk Road, Medina, Saudi Arabia</string>
+	
+	<string name="sightseeing_5_title">Koran Museum</string>
+	<string name="sightseeing_5_description">I was sooo delighted to see that this museum existed. It didn\'t when I first visited 9 years ago. Very detailed information and so many varieties of Qu\'rans of all sizes, from different countries, written by several gifted people. Beautiful indeed</string>
+	<string name="sightseeing_5_address">Medina, Saudi Arabia</string>
+	
+	<string name="sightseeing_6_title">Mount Uhud</string>
+	<string name="sightseeing_6_description">It took us in the old days when battle of uhud fought and few number of Muslims defeated Kuffaar. Mount uhud is one of the remarkable and significant mountain in the history of Islam where a battle was fought. </string>
+	<string name="sightseeing_6_address">Medina, Saudi Arabia</string>
+	
+	<string name="sightseeing_7_title">Jannatul Baqi</string>
+	<string name="sightseeing_7_description">Located right beside the grand mosque this is quite a historic place. Unfortunately the times of opening are erratic and I have unfortunately only seen it through the bars outside. While I can understand there is debate about how to mourn, all remnants of history</string>
+	<string name="sightseeing_7_address">Southeast of the Masjid al-Nabawi, Medina, Saudi Arabia</string>
+	
+	<string name="address">Address:</string>
+	<string name="sample">Sample</string>
+	<string name="thumbnail">thumbnail</string>
+</resources>
